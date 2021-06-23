@@ -25,7 +25,7 @@ a {
     margin: auto;
     width: 95%;
 
-    border-bottom: #fff 1px solid;
+    border-bottom: #000 1px solid;
 }
 .nav-option {
     text-align: center;
@@ -50,6 +50,9 @@ a {
     }
     a {
         color: #fff;
+    }
+    #main-nav {
+      border-bottom: #fff 1px solid;
     }
   }
 
