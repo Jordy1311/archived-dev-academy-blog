@@ -1,8 +1,13 @@
+/* 
+change nav-option selected from general border to border-bottom
+add on hover to nav options animation to grow border bottom
+*/
+
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica;
     background-color: #fff;
     color: #000;
-    margin: 10px;
+    margin: 0px;
 }
 a {
     text-decoration: none;
