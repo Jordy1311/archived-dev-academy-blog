@@ -1,8 +1,10 @@
 /* 
+NOTES/TO DO
 change nav-option selected from general border to border-bottom
 add on hover to nav options animation to grow border bottom
 */
 
+/* GLOBAL STYLES */
 body {
     font-family: Helvetica;
     background-color: #fff;
@@ -14,6 +16,7 @@ a {
     color: #000;
 }
 
+/* NAV */
 #main-nav {
     display: flex;
     margin: auto;
@@ -36,6 +39,7 @@ a {
     margin-left: auto;
 }
 
+/* MEDIA QUERIES */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #333;
