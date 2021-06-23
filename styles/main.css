@@ -13,17 +13,19 @@ a {
     display: flex;
     margin: auto;
     width: 95%;
+
+    border-bottom: #fff 1px solid;
+}
+.nav-option {
+    text-align: center;
+    padding: 10px;
+
+    /* border: goldenrod 1px solid; */
+}
 }
 #options-right {
     display: flex;
     margin-left: auto;
-}
-.nav-option {
-    text-align: center;
-    padding: 5px;
-    margin: 2px;
-    border: 1.5px rgb(253, 253, 253) solid;
-    border-radius: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
