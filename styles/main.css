@@ -7,11 +7,9 @@ add on hover to nav options animation to grow border bottom
 */
 
 /* GLOBAL STYLES */
-body {
+* {
     font-family: 'Roboto', Helvetica;
     font-weight: 400;
-    background-color: #fff;
-    color: #000;
     margin: 0px;
 }
 a {
