@@ -30,18 +30,18 @@ a {
   z-index: 0;
 }
 .nav-option {
-    text-align: center;
-    padding: 10px;
-
-    /* border: goldenrod 1px solid; */
+  text-align: center;
+  padding: 10px;
 }
 .red-underline-hover:hover {
   padding-bottom: 7px;
   border-bottom: 3px solid #FF4136;
 }
 #options-right {
-    display: flex;
-    margin-left: auto;
+  display: flex;
+  margin-left: auto;
+}
+
 /* BANNER */
 #banner {
   height: 30vw;
