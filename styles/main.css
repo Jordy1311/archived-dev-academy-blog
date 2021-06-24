@@ -68,6 +68,10 @@ a {
   top: 0;
   z-index: 1;
 }
+
+#big-space {
+  border: 3px black dashed;
+  height: 1000px;
 }
 
 /* MEDIA QUERIES */
