@@ -44,7 +44,7 @@ a {
 
 /* BANNER */
 #banner {
-  height: 30vw;
+  height: 35vw;
   max-height: 250px;
   min-height: 170px;
   text-align: center;
@@ -54,8 +54,8 @@ a {
 }
 #banner-photo {
   align-self: center;
-  width: 90%;
-  max-width: 100px;
+  width: 20vw;
+  max-width: 125px;
   height: auto;
   border: 2px #000 solid;
   border-radius: 50%;
