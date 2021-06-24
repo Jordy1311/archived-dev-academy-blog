@@ -69,9 +69,21 @@ a {
   z-index: 1;
 }
 
-#big-space {
-  border: 3px black dashed;
-  height: 1000px;
+#post-area {
+  display: flex;
+  justify-content: space-evenly;
+}
+.post {
+  width: 300px;
+  border: 2px black solid;
+  border-radius: 5px;
+  display: flex;
+}
+.post-photo {
+  width: 175px;
+}
+.post-title {
+  font-weight: 700;
 }
 
 /* MEDIA QUERIES */
