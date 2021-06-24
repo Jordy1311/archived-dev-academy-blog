@@ -19,11 +19,15 @@ a {
 
 /* NAV */
 #main-nav {
-    display: flex;
-    margin: auto;
-    width: 95%;
-
-    border-bottom: #000 1px solid;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #fff;
+  margin: auto;
+  width: 95%;
+  border-bottom: #000 2px solid;
+  z-index: 0;
 }
 .nav-option {
     text-align: center;
