@@ -44,32 +44,38 @@ a {
 
 /* MEDIA QUERIES */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #333;
-        color: #fff;
-    }
-    a {
-        color: #fff;
-    }
-    #main-nav {
-      border-bottom: #fff 1px solid;
-    }
+  body {
+    background-color: #333;
+    color: #fff;
+  }
+  a {
+    color: #fff;
+  }
+  #main-nav {
+    border-bottom: #fff 1px solid;
+  }
   }
 
 @media (min-width: 2000px) {
-    #main-nav {
-        width: 80%;
-    }
+  #main-nav {
+    width: 80%;
+  }
   }
 
 @media (max-width: 768px) {
-    #main-nav {
-      width: 100%;
-    }
+  #main-nav {
+    width: 100%;
+  }
+  h1 {
+    font-size: 28px;
+  }
   }
 
 @media (max-width: 480px) {
-    body {
-      font-size: 14px;
-    }
+  html * {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 26px;
+  }
   }
