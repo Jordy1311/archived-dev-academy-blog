@@ -76,20 +76,27 @@ a {
   margin: auto;
 }
 #post-area {
+  flex: 3 3 80%;
   display: flex;
-  justify-content: space-evenly;
+  flex-flow: column wrap;
+
+  /* border: 3px dashed yellow; */
 }
 .post {
-  width: 300px;
-  border: 2px black solid;
-  border-radius: 5px;
+  width: 93%;
   display: flex;
-}
-.post-photo {
-  width: 175px;
+  flex-direction: column;
+
+  margin: 3%;
+
+  /* border: 3px dashed pink; */
 }
 .post-title {
-  font-weight: 700;
+  font-size: 25px;
+}
+.post-photo {
+  width: 80%;
+}
 }
 
 /* MEDIA QUERIES */
@@ -110,6 +117,9 @@ a {
 @media (min-width: 2000px) {
   #main-nav {
     width: 80%;
+  }
+  #content-area {
+    width: 50%;
   }
   }
 
