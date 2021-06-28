@@ -99,7 +99,6 @@ a {
 }
 #side-bar {
   flex: 1 1 20%;
-
   z-index: 0;
   position: fixed;
   position: -webkit-sticky;
@@ -109,7 +108,6 @@ a {
 #side-bar * {
   margin: 5px;
   text-align: center;
-  
 }
 
 footer {
@@ -154,6 +152,14 @@ footer {
   }
   h1 {
     font-size: 28px;
+  }
+  #side-bar {
+    display: none;
+  }
+  .post {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3%;
   }
   }
 
