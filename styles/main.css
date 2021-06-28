@@ -97,6 +97,18 @@ a {
 .post-photo {
   width: 80%;
 }
+#side-bar {
+  flex: 1 1 20%;
+
+  position: absolute;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+#side-bar * {
+  margin: 5px;
+  text-align: center;
+  
 }
 
 /* MEDIA QUERIES */
