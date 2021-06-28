@@ -70,6 +70,11 @@ a {
   z-index: 1;
 }
 
+#content-area {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
 #post-area {
   display: flex;
   justify-content: space-evenly;
