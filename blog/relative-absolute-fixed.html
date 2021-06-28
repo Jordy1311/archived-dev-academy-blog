@@ -27,6 +27,93 @@
 
       <div id="content-area">
         <div id="post-area">
+          <div class="post">
+            <h2>CSS LAYOUT - RELATIVE VS. ABSOLUTE VS. FIXED POSITIONING</h2>
+            <img src="/images/relative-absolute-fixed-image.png" alt="example of the CSS position property" class="post-photo">
+            <p>
+              When you write HTML (a website's structure file) you put together many smaller elements. For example, the title of this blog post is an element. The positioning of these elements in CSS (a website's design guide) can be achieved using the position property. 
+              <br><br>
+              Without any sort of positioning properties, elements would simply show in order they were written in the HTML document. The positioning property gives the ability to move elements, stick elements to the viewport (what you see of the website in your window) and change other element's behaviours when they encounter the subject elements.
+              <br><br>
+              The position property actually specifies the type of positioning method (group of characteristics and processes) used to position an element. Once the method is set, there will be further options available to adjust the element.
+              <br><br>
+              The methods that can be selected are:
+            </p>
+            <ul class="m-10 code">
+              <li>position: static;</li>
+              <li>position: relative;</li>
+              <li>position: fixed;</li>
+              <li>position: absolute</li>
+              <li>position: sticky</li>
+            </ul>
+            <p>
+              The methods that we will focus on are relative, absolute and fixed.
+            </p>
+
+            <h3 class="post-heading">position: relative;</h3>
+            <p>An element with position: relative; is positioned relative to it's normal position within the normal flow of the HTML document. 
+            <br><br>
+            With this property you will subsequently have access to the top, right, bottom, and left properties which will adjust the element away from it's normal position. Other content around it will not be adjusted or move to fill the gap left by the element if moved. Moving the element will not impact the positioning of other elements.</p>
+            <div id="example-relative" class="m-5 example">I'm relative!</div>
+            <h4>The code:</h4>
+            <p>Below is the code applied to the single div element above:</p>
+            <p class="m-5 code">#example-relative {<br>
+              position: relative;<br>
+              left: 30px;<br>
+              width: 100px;<br>
+              height: 30px;<br>
+              border: 3px goldenrod solid;<br>
+          }</p>
+
+            <h3 class="post-heading">position: absolute;</h3>
+            <p>An element with postion: absolute; is positioned relative to the whole HTML document and the parent element will behave as if the element is not there at all. 
+            <br><br>
+            You will also have access to the top, right, bottom and left properties to adjust the position but an absolute element will not leave a gap in the document where it once was; it will be like it wasn't there. When other elements come into contact with a absolute element, other elements will not change their position.</p>
+            <div class="example-parent m-5 example">I'm absolute's parent!
+              <div id="example-absolute" class="example">I'm absolute!</div>
+            </div>
+            <h4>The code:</h4>
+            <p>Below is the code applied to the parent div element with a single div element as above:</p>
+            <p class="m-5 code">.example-parent {<br>
+              width: 300px;<br>
+              height: 100px;<br>
+              border: 3px #0000ff6e dashed;<br>
+          }<br><br>
+          #example-absolute {<br>
+              position: absolute;<br>
+              left: 20px;<br>
+              width: 100px;<br>
+              height: 30px;<br>
+              border: 3px goldenrod solid;<br>
+          }</p>
+
+            <h3 class="post-heading">position: fixed;</h3>
+            <p>An element with position: fixed; is positioned relative to the viewport. This means it always stays in the same place on the window even if the page is scrolled. 
+            <br><br>  
+            Adjusting the position of a fixed element is the same as adjusting an absolute element.</p>
+            <div  id="example-fixed" class="example">I'm fixed!</div>
+            <h4>The code:</h4>
+            <p>Below is the code applied to the single div that does not move when you scroll:</p>
+            <p class="m-5 code">#example-fixed {<br>
+              position: fixed;<br>
+              bottom: 50px;<br>
+              width: 100px;<br>
+              height: 30px;<br>
+              border: 3px goldenrod solid;<br>
+          }</p>
+
+          <h3 class="post-heading">So....?</h3>
+            <p>
+              Positioning elements in this way can take a lot of time because each positioning rule has to be set to each element. It can also be rather labourous to make a website responsive. 
+              <br><br>
+              Other systems of positioning that have been brought to CSS include Flexbox and CSS Grid. These systems transform making a responsive website to be almost automatic and it saves a lot of time by only requiring the rules to be set on the containing elements; at the worse-case, rules may have to be set to elements that fall as an exception to standard baked-in positioning rules.
+            </p>
+
+            <h3 class="post-heading">Resources Used</h3>
+            <ul class="m-5">
+              <li><a href="https://www.w3schools.com/cssref/pr_class_position.asp">W3 Schools</a></li>
+              <li><a href="https://css-tricks.com/almanac/properties/p/position/">CSS Tricks</a></li>
+            </ul>
           </div>
         </div>
 
