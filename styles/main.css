@@ -60,7 +60,7 @@ h4 {
   margin: auto;
   margin-top: 10px;
   width: 95%;
-  border-bottom: #000 2px solid;
+  border-bottom: #000 1px solid;
   z-index: 1;
 }
 .nav-option {
@@ -103,6 +103,8 @@ h4 {
   z-index: 2;
 }
 
+
+/* CONTENT */
 #content-area {
   width: 80%;
   display: flex;
@@ -112,8 +114,6 @@ h4 {
   flex: 3 3 80%;
   display: flex;
   flex-flow: column wrap;
-
-  /* border: 3px dashed yellow; */
 }
 .post {
   width: 93%;
@@ -121,8 +121,6 @@ h4 {
   flex-direction: column;
 
   margin: 3%;
-
-  /* border: 3px dashed pink; */
 }
 .post-photo {
   width: 80%;
