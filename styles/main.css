@@ -107,7 +107,6 @@ h4 {
 /* CONTENT */
 #content-area {
   width: 80%;
-  display: flex;
   margin: auto;
 }
 #post-area {
@@ -119,7 +118,6 @@ h4 {
   width: 93%;
   display: flex;
   flex-direction: column;
-
   margin: 3%;
 }
 .post-photo {
@@ -127,19 +125,8 @@ h4 {
   margin: auto;
   margin-bottom: 10px;
 }
-#side-bar {
-  flex: 1 1 20%;
-  z-index: 0;
-  position: fixed;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-#side-bar * {
-  margin: 5px;
-  text-align: center;
-}
 
+/* FOOTER */
 footer {
   height: 10vw;
   max-height: 100px;
@@ -192,9 +179,6 @@ footer {
   }
   h1 {
     font-size: 28px;
-  }
-  #side-bar {
-    display: none;
   }
   .post {
     width: 100%;
