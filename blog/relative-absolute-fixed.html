@@ -10,25 +10,19 @@
 </head>
 <body>
   <nav id="main-nav">
-    <a href="https://jordy1311.github.io/" class="nav-option red-underline-hover">HOME</a>
-    <a href="#" class="nav-option unavailable-link">BLOG</a>
-    <a href="#" class="nav-option unavailable-link">ABOUT</a>
-    <div id="options-right">
-      <a href="https://github.com/Jordy1311" class="nav-option red-underline-hover" target="_blank">GITHUB</a>
+    <a href="https://jordy1311.github.io/" id="nav-title">JORDAN COOPER</a>
+    <div id="nav-options">
+      <a href="https://jordy1311.github.io/" class="nav-option highlight-hover">blog</a>
+      <a href="#" class="nav-option highlight-hover">about</a>
+      <a href="https://github.com/Jordy1311" class="nav-option highlight-hover" target="_blank">github</a>
     </div>
-</nav>
-    <main>
-      
-      <div id="banner">
-        <img src="/images/Me.png" alt="Photo of Jordan" id="banner-photo">
-        <h1 id="page-title">Jordan Cooper</h1>
-        <p>Budding software developer. New on the scene.</p>
-      </div>
+  </nav>
 
+    <main>
       <div id="content-area">
         <div id="post-area">
           <div class="post">
-            <h2>CSS LAYOUT - RELATIVE VS. ABSOLUTE VS. FIXED POSITIONING</h2>
+            <h1>CSS LAYOUT - RELATIVE VS. ABSOLUTE VS. FIXED POSITIONING</h1>
             <img src="/images/relative-absolute-fixed-image.png" alt="example of the CSS position property" class="post-photo">
             <p>
               When you write HTML (a website's structure file) you put together many smaller elements. For example, the title of this blog post is an element. The positioning of these elements in CSS (a website's design guide) can be achieved using the position property. 
@@ -50,12 +44,12 @@
               The methods that we will focus on are relative, absolute and fixed.
             </p>
 
-            <h3 class="post-heading">position: relative;</h3>
+            <h2>position: relative;</h2>
             <p>An element with position: relative; is positioned relative to it's normal position within the normal flow of the HTML document. 
             <br><br>
             With this property you will subsequently have access to the top, right, bottom, and left properties which will adjust the element away from it's normal position. Other content around it will not be adjusted or move to fill the gap left by the element if moved. Moving the element will not impact the positioning of other elements.</p>
             <div id="example-relative" class="m-5 example">I'm relative!</div>
-            <h4>The code:</h4>
+            <h3>The code:</h3>
             <p>Below is the code applied to the single div element above:</p>
             <p class="m-5 code">#example-relative {<br>
               position: relative;<br>
@@ -65,14 +59,14 @@
               border: 3px goldenrod solid;<br>
           }</p>
 
-            <h3 class="post-heading">position: absolute;</h3>
+            <h2>position: absolute;</h2>
             <p>An element with postion: absolute; is positioned relative to the whole HTML document and the parent element will behave as if the element is not there at all. 
             <br><br>
             You will also have access to the top, right, bottom and left properties to adjust the position but an absolute element will not leave a gap in the document where it once was; it will be like it wasn't ever there. When other elements come into contact with a absolute element, other elements will not change their position.</p>
             <div class="example-parent m-5 example">I'm absolute's parent!
               <div id="example-absolute" class="example">I'm absolute!</div>
             </div>
-            <h4>The code:</h4>
+            <h3>The code:</h3>
             <p>Below is the code applied to the parent div element with a single div element as above:</p>
             <p class="m-5 code">.example-parent {<br>
               width: 300px;<br>
@@ -87,46 +81,41 @@
               border: 3px goldenrod solid;<br>
           }</p>
 
-            <h3 class="post-heading">position: fixed;</h3>
+            <h2>position: fixed;</h2>
             <p>An element with position: fixed; is positioned relative to the viewport. This means it always stays in the same place on the window even if the page is scrolled. 
             <br><br>  
             Adjusting the position of a fixed element is the same as adjusting an absolute element.</p>
             <div  id="example-fixed" class="example">I'm fixed!</div>
-            <h4>The code:</h4>
+            <h3>The code:</h3>
             <p>Below is the code applied to the single div that does not move when you scroll:</p>
             <p class="m-5 code">#example-fixed {<br>
               position: fixed;<br>
-              bottom: 50px;<br>
+              bottom: 20px;<br>
+              left: 20px;<br>
               width: 100px;<br>
               height: 30px;<br>
               border: 3px goldenrod solid;<br>
           }</p>
 
-          <h3 class="post-heading">So....?</h3>
+          <h2>So....?</h2>
             <p>
               Positioning elements in this way can take a lot of time because each positioning rule has to be set to each element. It can also be rather labourous to make a website responsive. 
               <br><br>
               Other systems of positioning that have been brought to CSS include Flexbox and CSS Grid. These systems transform making a responsive website to be almost automatic and it saves a lot of time by only requiring the rules to be set on the containing elements; at the worse-case, rules may have to be set to elements that fall as an exception to standard baked-in positioning rules.
             </p>
 
-            <h3 class="post-heading">Resources Used</h3>
+            <h2>Resources Used</h2>
             <ul class="m-5">
               <li><a href="https://www.w3schools.com/cssref/pr_class_position.asp">W3 Schools</a></li>
               <li><a href="https://css-tricks.com/almanac/properties/p/position/">CSS Tricks</a></li>
             </ul>
           </div>
         </div>
-
-        <div id="side-bar">
-          <p>I am an up and coming web-developer/software engineer not keen to make ripples but waves. Over the next weeks I will attending a 15 week dev-bootcamp in Wellington at Dev Academy, after having been teaching myself since the start of 2021!</p>
-        </div>
       </div>
-
     </main>
+
     <footer>
-      <div id="footer-content">
-        <p>ʘ‿ʘ made by Jordan Cooper ʘ‿ʘ</p>
-      </div>
-    </footer>
+      <p>2021 | Email: <a href="mailto:jordancooper1195@gmail.com" class="footer-contact">jordancooper1195@gmail.com</a> | Phone: 027 471 2926</p>
+  </footer>
 </body>
 </html>
