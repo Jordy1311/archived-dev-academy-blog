@@ -11,6 +11,11 @@ Make ABOUT page
     font-weight: 400;
     margin: 0px;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 a {
     text-decoration: none;
     color: #000;
@@ -141,16 +146,18 @@ p {
 footer {
   display: flex;
   justify-content: center;
-  margin: auto;
+  opacity: 0.97;
+  width: 95%;
   
   font-size: 90%;
   align-items: center;
   margin: 30px 36px 0px 36px;
-  height: 5vw;
-  max-height: 20px;
-  min-height: 50px;
+  height: 5vh;
+  max-height: 50px;
+  min-height: 20px;
   border-top: 1px #000 solid;
   background-color: #fff;
+  opacity: 0.97;
 }
 .footer-contact {
   text-decoration: underline;
@@ -159,6 +166,9 @@ footer {
 /* MEDIA QUERIES */
 /* full */
 @media (min-width: 2000px) {
+  * {
+    font-size: 100%;
+  }
   #main-nav {
     background-color: blue;
     width: 80%;
@@ -170,7 +180,7 @@ footer {
     width: 70%;
   }
   footer {
-    font-size: 85%;
+    font-size: 100%;
     width: 80%;
   }
 }
@@ -195,7 +205,6 @@ footer {
   footer {
     width: 100%;
     margin-top: 30px;
-    margin: auto;
   }
 }
 
@@ -233,6 +242,8 @@ footer {
     border-radius: 5px;
   }
   footer {
+    background-color: #333;
     color: #fff;
+    border-top: #fff 1px solid;
   }
   }

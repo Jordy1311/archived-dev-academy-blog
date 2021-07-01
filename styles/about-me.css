@@ -2,12 +2,11 @@ footer {
     position: fixed;
     bottom: 0px;
 }
-
 .post {
-    display: flex;
-    flex-direction: column;
+    margin-top: auto;
     align-items: center;
     justify-content: center;
+    height: 90vh;
 }
 
 #about-me-photo {
@@ -18,7 +17,7 @@ footer {
     padding: 1em;
 }
 
-h1 {
+#greeting {
     margin: .5em;
 }
 
@@ -51,9 +50,6 @@ h1 {
   
   /* ipad-ish */
   @media (max-width: 900px) {
-    * {
-          font: 95%;
-      }
     #about-me-info {
           flex-direction: column;
           align-items: center;
@@ -67,18 +63,10 @@ h1 {
         max-width: none;
         align-self: center;
     }
-    footer {
-        width: 100%;
-        margin-top: 30px;
-        margin: auto;
-      }
   }
   
   /* smallest */
   @media (max-width: 500px) {
-      * {
-          font: 90%;
-      }
       #about-me-info-general {
         width: 70vw;
     }
@@ -86,3 +74,9 @@ h1 {
         width: 90vw;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    #about-me-info-general {
+        background-color: #222;
+    }
+    }
