@@ -180,7 +180,7 @@ footer {
   * {
     font-size: 98%;
   }
-  #main-nav {
+  #main-nav {;
     width: 100%;
     margin-top: 0px;
   }
