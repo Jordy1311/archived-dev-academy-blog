@@ -113,9 +113,13 @@ p {
   text-align: center;
   padding: 10px;
 }
-.highlight-hover:hover {
+.highlight-hover-blue:hover {
   padding-bottom: 7px;
-  border-bottom: red solid 3px;
+  border-bottom: #83d1e0 solid 3px;
+}
+.highlight-hover-pink:hover {
+  padding-bottom: 7px;
+  border-bottom: #ec7b85 solid 3px;
 }
 
 /* CONTENT */
@@ -145,6 +149,9 @@ p {
   text-decoration: underline;
   margin-bottom: .5em;
   text-align: center;
+}
+.post-title:hover {
+  color: #83d1e0;
 }
 .post-teaser {
   width: 70%;
