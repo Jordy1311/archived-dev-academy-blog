@@ -71,7 +71,9 @@ p {
   flex-direction: column;
 }
 #logo {
-  margin-bottom: 0px;
+  width: 20vw;
+  min-width: 200px;
+  margin: auto;
 }
 #tagline {
   margin: 0px;
@@ -88,7 +90,7 @@ p {
   margin: auto;
 
   opacity: 0.97;
-  margin-top: 10px;
+  padding-top: 10px;
   width: 95%;
   background-color: #fff;
   border-bottom: #000 solid 1px;
@@ -97,6 +99,11 @@ p {
   font-weight: 700;
   text-align: center;
   padding: 10px;
+}
+#nav-logo {
+  width: 10vw;
+  min-width: 75px;
+  max-width: 150px;
 }
 #nav-options {
   display: flex;
@@ -135,10 +142,13 @@ p {
   margin-bottom: 10px;
 }
 .post-title {
+  text-decoration: underline;
   margin-bottom: .5em;
   text-align: center;
 }
 .post-teaser {
+  width: 70%;
+  margin: auto;
   text-align: center;
 }
 
@@ -192,7 +202,7 @@ footer {
   }
   #main-nav {;
     width: 100%;
-    margin-top: 0px;
+    padding-top: 0px;
   }
   #content-area {
     width: 90%;
