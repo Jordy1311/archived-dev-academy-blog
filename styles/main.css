@@ -146,7 +146,7 @@ li {
   width: 70%;
   display: flex;
   flex-direction: column;
-  margin: 3%;s
+  margin: 3%;
 }
 .post-photo {
   width: 70%;
@@ -222,7 +222,7 @@ footer {
   * {
     font-size: 98%;
   }
-  #main-nav {;
+  #main-nav {
     width: 100%;
     padding-top: 0px;
   }
