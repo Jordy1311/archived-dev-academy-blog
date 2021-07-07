@@ -40,7 +40,16 @@ h3 {
 }
 p {
   font-size: 1em;
+  line-height: 1.6;
   margin: .5em 0px;
+}
+a-text {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: .5em 0px;
+}
+li {
+  line-height: 1.6;
 }
 .m-5 {
   margin: 5px;
