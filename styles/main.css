@@ -145,6 +145,12 @@ p {
   margin: auto;
   margin-bottom: 10px;
 }
+.post-photo-small {
+  width: 50%;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+}
 .post-title {
   text-decoration: underline;
   margin-bottom: .5em;
