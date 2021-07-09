@@ -86,6 +86,7 @@ li {
   margin: auto;
 }
 #tagline {
+  font-size: 110%;
   margin: 0px;
 }
 
@@ -106,14 +107,13 @@ li {
   border-bottom: #000 solid 1px;
 }
 #nav-title {
-  font-weight: 700;
   text-align: center;
   padding: 10px;
 }
 #nav-logo {
-  width: 10vw;
+  width:7vw;
   min-width: 75px;
-  max-width: 150px;
+  max-width: 125px;
 }
 #nav-options {
   display: flex;
@@ -170,6 +170,7 @@ li {
   color: #83d1e0;
 }
 .post-teaser {
+  color: #777;
   width: 70%;
   margin: auto;
   text-align: center;
@@ -280,6 +281,9 @@ footer {
   #main-nav {
     background-color: #333;
     border-bottom: #fff 1px solid;
+  }
+  .post-teaser {
+    color: #bbb;
   }
   .post-date-home {
     border-top: #fff 1px solid;
