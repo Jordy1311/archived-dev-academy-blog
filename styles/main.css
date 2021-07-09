@@ -124,13 +124,13 @@ li {
   padding: 10px;
 }
 .highlight-hover-blue:hover {
-  padding-bottom: 7px;
-  border-bottom: #83d1e0 solid 3px;
+  padding-bottom: 6px;
+  border-bottom: #83d1e0 solid 4px;
   color: #83d1e0;
 }
 .highlight-hover-pink:hover {
-  padding-bottom: 7px;
-  border-bottom: #ec7b85 solid 3px;
+  padding-bottom: 6px;
+  border-bottom: #ec7b85 solid 4px;
   color: #ec7b85;
 }
 .link-hover:hover {
