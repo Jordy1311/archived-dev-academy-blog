@@ -174,10 +174,18 @@ li {
   margin: auto;
   text-align: center;
 }
-.post-date {
+.post-date-home {
   margin: auto;
   margin-top: 1em;
   border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-variant: small-caps;
+}
+.post-date-post {
+  margin: .3em;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-left: auto;
   font-variant: small-caps;
 }
 
@@ -218,8 +226,13 @@ footer {
   .post {
     width: 70%;
   }
-  .post-date {
+  .post-date-home {
     border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+  }
+  .post-date-post {
+    border-top: 1px solid #fff;
+    border-bottom: #fff 1px solid;
   }
   footer {
     font-size: 100%;
