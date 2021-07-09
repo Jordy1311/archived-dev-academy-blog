@@ -226,14 +226,6 @@ footer {
   .post {
     width: 70%;
   }
-  .post-date-home {
-    border-top: #fff 1px solid;
-    border-bottom: #fff 1px solid;
-  }
-  .post-date-post {
-    border-top: 1px solid #fff;
-    border-bottom: #fff 1px solid;
-  }
   footer {
     font-size: 100%;
     width: 80%;
@@ -287,6 +279,14 @@ footer {
   }
   #main-nav {
     background-color: #333;
+    border-bottom: #fff 1px solid;
+  }
+  .post-date-home {
+    border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+  }
+  .post-date-post {
+    border-top: 1px solid #fff;
     border-bottom: #fff 1px solid;
   }
   .code {
