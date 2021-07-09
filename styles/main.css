@@ -126,10 +126,12 @@ li {
 .highlight-hover-blue:hover {
   padding-bottom: 7px;
   border-bottom: #83d1e0 solid 3px;
+  color: #83d1e0;
 }
 .highlight-hover-pink:hover {
   padding-bottom: 7px;
   border-bottom: #ec7b85 solid 3px;
+  color: #ec7b85;
 }
 .link-hover:hover {
   color: #83d1e0;
@@ -170,7 +172,7 @@ li {
   text-align: center;
 }
 .post-title:hover {
-  color: #83d1e0;
+  color: #ec7b85;
 }
 .post-teaser {
   color: #777;
