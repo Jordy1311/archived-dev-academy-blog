@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* 
-NOTES/TO DO
-Make ABOUT page
-*/
-
 /* GLOBAL STYLES */
 * {
     font-family: 'Roboto', Helvetica;
     font-weight: 400;
-    margin: 0px;
+    margin: 0px
 }
 body {
   display: flex;
@@ -70,41 +65,20 @@ li {
   color: #777;
 }
 
-/* BANNER */
-#banner {
-  height: 15vw;
-  max-height: 200px;
-  min-height: 125px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-#logo {
-  width: 20vw;
-  min-width: 200px;
-  margin: auto;
-}
-#tagline {
-  font-size: 110%;
-  margin: 0px;
-}
-
 /* NAV */
 #main-nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-
+  
   display: flex;
   z-index: 1;
   margin: auto;
-
+  
   opacity: 0.97;
   padding-top: 10px;
   width: 95%;
   background-color: #fff;
-  border-bottom: #000 solid 1px;
 }
 #nav-title {
   text-align: center;
@@ -137,32 +111,47 @@ li {
   color: #83d1e0;
 }
 
-/* CONTENT */
+/* BANNER */
+#banner {
+  height: 15vw;
+  max-height: 200px;
+  min-height: 125px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#logo {
+  width: 20vw;
+  min-width: 200px;
+  margin: auto;
+}
+#tagline {
+  font-size: 110%;
+  margin: 0px;
+}
+
+/* HOME PAGE BLOG LISTINGS */
 #content-area {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 #post-area {
   flex: 3 3 80%;
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .post {
-  width: 70%;
+  width: 30%;
   display: flex;
   flex-direction: column;
-  margin: 3%;
+  justify-content: start;
+  margin: 1%;
 }
 .post-photo {
-  width: 70%;
+  width: 90%;
   max-width: 500px;
-  margin: auto;
-  margin-bottom: 10px;
-}
-.post-photo-small {
-  width: 50%;
-  max-width: 300px;
   margin: auto;
   margin-bottom: 10px;
 }
@@ -183,9 +172,18 @@ li {
 .post-date-home {
   margin: auto;
   margin-top: 1em;
+  align-self: flex-end;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   font-variant: small-caps;
+}
+
+/* BLOG POST RELATED */
+.post-photo-small {
+  width: 50%;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 .post-date-post {
   margin: .3em;
@@ -208,7 +206,6 @@ footer {
   height: 5vh;
   max-height: 50px;
   min-height: 20px;
-  border-top: 1px #000 solid;
   background-color: #fff;
   opacity: 0.97;
 }
@@ -223,7 +220,6 @@ footer {
     font-size: 100%;
   }
   #main-nav {
-    background-color: blue;
     width: 80%;
   }
   #content-area {
@@ -285,7 +281,6 @@ footer {
   }
   #main-nav {
     background-color: #333;
-    border-bottom: #fff 1px solid;
   }
   .post-teaser {
     color: #bbb;
