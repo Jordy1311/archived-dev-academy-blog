@@ -199,6 +199,15 @@ li {
   border-bottom: 1px solid #000;
   font-variant: small-caps;
 }
+.post {
+  display: flex;
+  flex-direction: column;
+
+  width: 70vw;
+}
+#spacer100px {
+  height: 100px
+}
 
 /* FOOTER */
 footer {
