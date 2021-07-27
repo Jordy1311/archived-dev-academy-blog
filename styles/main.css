@@ -10,6 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 90vw;
+  margin: auto;
 }
 a {
     text-decoration: none;
@@ -60,6 +63,9 @@ li {
   color: #fff;
   font-family: monospace;
   border-radius: 5px;
+}
+.link-hover:hover {
+  color: #83d1e0;
 }
 .unavailable-link {
   color: #777;
