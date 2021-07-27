@@ -212,21 +212,18 @@ li {
 /* FOOTER */
 footer {
   display: flex;
-  justify-content: center;
-  opacity: 0.97;
-  width: 95%;
-  
-  font-size: 90%;
+  justify-content: space-between;
   align-items: center;
-  margin: 30px 36px 0px 36px;
+
+  width: inherit;
+  margin: 40px 0px 30px 0px;
   height: 5vh;
   max-height: 50px;
   min-height: 20px;
-  background-color: #fff;
-  opacity: 0.97;
 }
-.footer-contact {
-  text-decoration: underline;
+.footer-icon {
+  font-size: 24px;
+  margin-left: 10px;
 }
 
 /* MEDIA QUERIES */
