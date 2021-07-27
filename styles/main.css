@@ -105,8 +105,8 @@ li {
   margin-top: 60px;
 }
 #page-description p {
-  width: 20vw;
-  min-width: 200px;
+  width: 40vw;
+  min-width: 100px;
   max-width: 300px;
 }
 #nav-options {
