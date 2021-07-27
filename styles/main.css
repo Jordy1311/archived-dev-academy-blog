@@ -105,7 +105,9 @@ li {
   margin-top: 60px;
 }
 #page-description p {
-  width: 300px;
+  width: 20vw;
+  min-width: 200px;
+  max-width: 300px;
 }
 #nav-options {
   display: flex;
