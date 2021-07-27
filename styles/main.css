@@ -126,15 +126,9 @@ li {
   color: #ec7b85;
 }
 
+/* HOME PAGE BLOG LISTINGS */
+#page-nav {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-#logo {
-  width: 20vw;
-  min-width: 200px;
-  margin: auto;
-}
 #tagline {
   font-size: 110%;
   margin: 0px;
