@@ -216,54 +216,72 @@ footer {
 /* MEDIA QUERIES */
 /* full */
 @media (min-width: 2000px) {
-  * {
-    font-size: 100%;
+  body {
+    width: 80vw;
   }
-  #main-nav {
-    width: 80%;
-  }
-  #content-area {
-    width: 50%;
+  .post-card {
+    margin-top: 2%;
   }
   .post {
-    width: 70%;
-  }
-  footer {
-    font-size: 100%;
-    width: 80%;
+    width: 40vw;
   }
 }
 
 /* ipad-ish */
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+  * {
+    font-size: 99.5%;
+  }
+  body {
+    width: 95vw;
+  }
+  #nav-logo {
+    margin-top: 30px;
+  }
+  #page-description h2 {
+    margin-top: 30px;
+  }
+  .post-card {
+    width: 45%;
+    margin-top: 5%;
+  }
+  .post {
+    width: 80vw;
+  }
+  footer {
+    margin: 20px 0px 5px 0px;
+  }
+}
+
+/* small */
+@media (max-width: 750px) {
   * {
     font-size: 98%;
   }
-  #main-nav {
-    width: 100%;
-    padding-top: 0px;
+  #nav-logo {
+    margin-top: 25px;
   }
-  #content-area {
+  .post-card {
     width: 90%;
   }
   .post {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 3%;
+    width: 90vw;
   }
   footer {
-    width: 100%;
-    margin-top: 30px;
+    margin: 10px 0px 5px 0px;
   }
 }
 
 /* smallest */
-@media (max-width: 500px) {
-  * {
-    font-size: 97%;
+@media (max-width: 600px) {
+  #nav-logo {
+    margin-top: 20px;
+  }
+  .post {
+    width: 95vw;
   }
   footer {
-    font-size: 80%;
+    margin: 10px 0px 5px 0px;
   }
 }
 
