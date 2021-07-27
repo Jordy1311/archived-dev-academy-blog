@@ -307,11 +307,8 @@ footer {
   a {
     color: #fff;
   }
-  #nav-title {
+  #nav-icon {
     color: #fff;
-  }
-  #main-nav {
-    background-color: #333;
   }
   .post-teaser {
     color: #bbb;
@@ -332,8 +329,6 @@ footer {
     border-radius: 5px;
   }
   footer {
-    background-color: #333;
     color: #fff;
-    border-top: #fff 1px solid;
   }
   }
