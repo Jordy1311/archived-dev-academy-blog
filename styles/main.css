@@ -126,12 +126,6 @@ li {
   color: #ec7b85;
 }
 
-/* BANNER */
-#banner {
-  height: 15vw;
-  max-height: 200px;
-  min-height: 125px;
-  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
