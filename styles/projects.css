@@ -30,8 +30,11 @@
     align-self: flex-start;
     margin: 3%;
 }
-.project-text h2 {
+.project-text h3 {
     margin-top: 5px;
+}
+.project-text h3:hover {
+    color: #ec7b85;
 }
 .project img {
     width: 15vw;
