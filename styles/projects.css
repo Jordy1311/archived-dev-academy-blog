@@ -1,0 +1,65 @@
+.title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#project-categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 5vw;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60vw;
+    margin: 3%;
+}
+.project-text {
+    align-self: flex-start;
+    margin: 3%;
+}
+.project-text h2 {
+    margin-top: 5px;
+}
+.project img {
+    width: 15vw;
+    min-width: 150px;
+    max-width: 200px;
+}
+
+/* MEDIA QUERIES */
+/* full */
+@media (min-width: 2000px) {
+    .project {
+        width: 40vw;
+    }
+  }
+  
+  /* ipad-ish */
+  @media (max-width: 1200px) {
+    .project {
+        width: 80vw;
+    }
+  }
+  
+  /* small */
+  @media (max-width: 750px) {
+    #project-categories {
+        margin: 5vw;
+    }
+    .project {
+        width: 90vw;
+    }
+  }
