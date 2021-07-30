@@ -27,7 +27,10 @@
     margin: 3%;
 }
 .project-text {
-    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     margin: 3%;
 }
 .project-text h3 {
