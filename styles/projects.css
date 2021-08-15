@@ -41,8 +41,8 @@
 }
 .project img {
     width: 15vw;
-    min-width: 150px;
-    max-width: 200px;
+    min-width: 100px;
+    max-width: 150px;
 }
 
 /* MEDIA QUERIES */
