@@ -2,7 +2,7 @@
 
 This is no longer being updated and was mostly forgotten over the Bootcamp phase of Enspiral Dev Academy 😬 
 
-For my updated portfolio/blog please [click here](notGoingAnywhere) 👈 ENTER_A_LINK_TO_MY_NEW_SITE
+For my updated portfolio/blog please [click here](jcoop.co) 👈
 
 ---
 
